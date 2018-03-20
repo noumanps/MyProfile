@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp"
+    tools:context="com.example.nouman.myprofile.EducationActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/college2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Assistant Professor"
+            android:textColor="#222222"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Department of Computer Science and Engineering, Government Engineering College Aurangabad, Aurangabad Mahrashtra"
+            android:textSize="12sp"
+            android:textColor="#555555"
+            android:layout_below="@id/college2"
+            android:layout_marginTop="4dp"/>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#CCCCCC"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/college1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Assistant Professor"
+            android:textColor="#222222"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Department of Computer Science and Engineering, PES College of Engineering, Aurangabad Mahrashtra"
+            android:textSize="12sp"
+            android:textColor="#555555"
+            android:layout_below="@id/college1"
+            android:layout_marginTop="4dp"/>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#CCCCCC"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp" />
+</LinearLayout>
